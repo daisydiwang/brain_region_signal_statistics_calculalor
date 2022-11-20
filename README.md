@@ -23,8 +23,12 @@ The script should take four inputs:
 To compute the statistics for the given signal image, run:
 
 ```
-./run.py --annotation_volume_path data/annotation.npz --signal_volume_path data/signal.npz --structures_df_path data/structures.csv --statistics_df_path data/statistics.csv
+python ./run.py --annotation_volume_path data/annotation.npz --signal_volume_path data/signal.npz --structures_df_path data/structures.csv --statistics_df_path data/statistics.csv
 ```
+
+# Visualization
+
+please check visualize_brain_regions.ipynb
 
 # Contact
 Di Wang (di-wang@uiowa.edu)
