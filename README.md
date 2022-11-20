@@ -28,7 +28,7 @@ python ./run.py --annotation_volume_path data/annotation.npz --signal_volume_pat
 
 # Visualization
 
-please check visualize_brain_regions.ipynb
+Please check visualize_brain_regions.ipynb for visualization
 
 # Contact
 Di Wang (di-wang@uiowa.edu)
