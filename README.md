@@ -1,5 +1,5 @@
 # Welcome!
-This is a repository for computing region signal statistics for 3D brain volume.
+This is a repository for computing region signal statistics (the mean, minimum, maximum, sum of signal values and the number of voxels per brain region) for 3D brain volume.
 
 
 # Instructions
@@ -28,7 +28,7 @@ python ./run.py --annotation_volume_path data/annotation.npz --signal_volume_pat
 
 # Visualization
 
-Please check visualize_brain_regions.ipynb for visualization
+Please check visualize_brain_regions.ipynb for 3D volume visualization
 
 # Contact
 Di Wang (di-wang@uiowa.edu)
