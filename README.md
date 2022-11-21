@@ -18,12 +18,16 @@ The script should take four inputs:
 - a CSV describing brain regions (e.g. data/structures.csv)
 - an output CSV file name (e.g. data/statistics.csv)
 
-# Testing 
-
+# Run 
 To compute the statistics for the given signal image, run:
-
 ```
 python ./run.py --annotation_volume_path data/annotation.npz --signal_volume_path data/signal.npz --structures_df_path data/structures.csv --statistics_df_path data/statistics.csv
+```
+
+# Test
+Integration test for brain_region_signal_statistics_calculalor using a synthetic data, run:
+```
+python ./integration_test/integration_test.py
 ```
 
 # Visualization
