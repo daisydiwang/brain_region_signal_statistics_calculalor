@@ -27,7 +27,8 @@ python ./run.py --annotation_volume_path data/annotation.npz --signal_volume_pat
 # Test
 Integration test for brain_region_signal_statistics_calculalor using a synthetic data, run:
 ```
-python ./integration_test/integration_test.py
+cd integration_test
+python ./integration_test.py
 ```
 
 # Visualization
